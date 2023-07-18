@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    height: 10vh;
+}
+
+.navigation{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+    height: 8vh;
+    position: fixed;
+    top: 0px;
+   z-index: 1;
+   background: #fff;
+
+    
+   
+
+}
+.logo img{
+    max-width: 4.5em;
+    position: relative;
+    right: 20px;
+    top: 5px;
+}
+.list{
+  border: 1px green; 
+   
+}
+.list ul{
+    display: flex;
+ align-items: center;
+    
+    gap: 40px;
+    list-style: none;
+}
+.list ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;  
+    font-weight: 100; 
+
+    
+}
+#apply-list
+{
+    background-color: #07a3e1;
+    padding: 5px 10px;
+    border-radius: 0.2em;
+    outline: none;
+    border: none;
+    
+}
+#apply-list a{
+    color: #fff;
+}
+
+main{
+   
+    height: 70vh;
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+.right video{
+    height: 500px;
+   
+
+}
+.left{
+
+    margin-left:20px;
+    /* padding: 10px 20px; */
+}
+.left h1{
+  font-size: 35px;
+  font-weight: 100;
+}
+
+#h1{
+    font-size:4em;
+    color: #07a3e1;
+}
+.left p:nth-child(3){
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    color: #07a3e1;
+}
+.left p:nth-child(5)
+{
+    font-size: 20px;
+    font-weight: 100;
+    
+    
+}
+.bank-img{
+    margin: 10px;
+    padding: 10px 0;
+}
+.bank-img img{
+    height: 100px;
+    width: 300px;
+}
+
+ a img{
+    margin-top: 30px;
+    height: 50px;
+    width: 15em;
+ }
+
+ /* section */
+ .contant{
+    background-color: #000;
+    height: 470px;
+    
+  
+    
+ }
+ .contant .slogan{
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    margin: 50px 0px;
+    
+ }
+ .contant .slogan h1{
+   text-align: center;
+    font-size: 64px;
+   background-image: linear-gradient(92deg, #217ee6 3%, #3187d5 44%, #69a798 70%, #fcf2a6 95%);
+  -webkit-background-clip: text;
+    color: transparent;
+    
+   
+ }
+
+ .slogan p{
+    font-size: 48px;
+    margin-top: 3em;
+ }
+
+ footer{
+    background-color:#000;
+    color: #fff;
+    height: 40vh;
+    margin-top: 30px;
+    
+
+ }
+ .main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+   
+ }
+ .match{
+    margin-top: 30px;
+ }
+ 
+ .match ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+ .match ul li a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .match h2{
+    padding: 30px 0;
+ }
+
+ .name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    
+ }
+ .email button {
+     width: 100%;
+     padding: 10px;
+     margin-top: 10px;
+     background-color: #07a3e1;
+     border: none;
+     border-radius: 0.3em;
+     
+
+ }
+
+ .email input {
+     padding:5px 40px;
+    border-radius: 0.3em;
+    border: none;
+    padding: 10px 20px;
+
+ }
